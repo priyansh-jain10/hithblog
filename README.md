@@ -23,5 +23,6 @@ dependencies {
     implementation files('libs\\YouTubeAndroidPlayerApi.jar')}
     
     For Login purpose
+    Login via teacher
     // Useremail:priyanshjain1002@gmail.com
     // Password:priyanshtest
