@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PostBlogActivity"
+    style="@style/Theme.Design.Light.NoActionBar">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/main_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_pic"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/profile_pic" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Tap to add a new picture"/>
+    <Button
+        android:id="@+id/Save_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff6337"
+        android:textColor="#ffffff"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:text="Save Image"
+        android:visibility="gone"
+        android:layout_marginTop="60dp"/>
+    <ProgressBar
+        android:id="@+id/svprogress"
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="all">
+    <item android:id="@+id/home_item"
+        android:title="Home"
+        android:icon="@drawable/home_black_24dp">
+
+    </item>
+    <item android:id="@+id/my_account"
+        android:title="My Account"
+        android:icon="@drawable/face_black_18dp"/>
+    <item android:id="@+id/podcast_audio"
+        android:title="Podcasts"
+        android:icon="@drawable/twotone_mic_black_18dp"/>
+</group>
+</menu>

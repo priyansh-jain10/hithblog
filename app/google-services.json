@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "182358301783",
+    "firebase_url": "https://hithblogs.firebaseio.com",
+    "project_id": "hithblogs",
+    "storage_bucket": "hithblogs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182358301783:android:329019c5229f63117d5712",
+        "android_client_info": {
+          "package_name": "com.example.hithblogs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182358301783-o596jau8910gkcb4m3sjbts6qks2in3s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hithblogs",
+            "certificate_hash": "990914e9b6c68f32753f4d713f0a50a6fc48039f"
+          }
+        },
+        {
+          "client_id": "182358301783-nptpm8pep4975gv30ikcnu38ojjloq3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLaksz18kEz4ctvEgPtZXUT7A-hzZIW3A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182358301783-nptpm8pep4975gv30ikcnu38ojjloq3j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

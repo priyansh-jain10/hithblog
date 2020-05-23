@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".CreateAccount">
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/create_ac_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:visibility="gone"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/email_loginfrom">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="94dp"
+            android:layout_gravity="top"
+            android:src="@drawable/logo1" />
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/username_newac_id"
+            android:hint="Username"
+            android:inputType="text"
+            android:maxLines="1"/>
+
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/email_newac_id"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/password_newac_details"
+            android:hint="Password"
+            android:layout_marginTop="18dp"
+            android:maxLines="1"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transarent"
+            android:id="@+id/create_acc_btn"
+            android:textColor="#EB4559"
+            android:text="Create new account"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
